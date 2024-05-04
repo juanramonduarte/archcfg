@@ -1,3 +1,6 @@
+#+TITLE:
+#+OPTIONS: toc:2
+
 * Arch installation
 ** Initial install
 *** Disk partitioning
