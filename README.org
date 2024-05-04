@@ -52,11 +52,41 @@ paru -S
 #+end_src
 
 ** Install required packages
+
+Since both the main environment (River) and the fallback (Gnome) are both going
+to use Wayland, I install the Wayland version of emacs. The regular package
+(/emacs/) works well under Wayland, except for org-capture. For some reason,
+capture window doesn't work.  Using the /emacs-wayland/ fixes this issue.
+
 #+begin_src shell
-paru -S fd
+paru -S emacs-wayland
 #+end_src
-** Doom installation
+
+The minimum requirements for a vanilla install are as follows:
+
 #+begin_src shell
+paru -S fd extra/ripgrep
+#+end_src
+
+The full list of required packages is:
+
+#+begin_src shell
+paru -S
+#+end_src
+
+** Doom installation
+
+The main repository is: https://github.com/doomemacs/doomemacs
+
+Since the configuration already exists after cloning the config repo above, the
+installation steps below will take into account this configuration and only
+download the packages required.
+
+#+begin_src shell
+
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+
+~/.config/emacs/bin/doom install
 
 #+end_src
 
