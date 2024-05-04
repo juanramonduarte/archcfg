@@ -1,0 +1,118 @@
+* Arch installation
+** Initial install
+*** Disk partitioning
+
+*** Basic desktop environment
+
+** Post-install
+*** Fonts
+**** Microsoft fonts
+
+There are a few MS font packages in the AUR:
+
+ttf-ms-fonts ttf-vista-fonts ttf-ms-win11 ttf-ms-win10-cdn
+
+I choose /ttf-ms-win11/ and for Repository AUR: 2) ttf-ms-win11-auto
+
+#+begin_src shell
+
+paru -S ttf-ms-win11
+
+#+end_src
+
+**** Apple fonts
+#+begin_src shell
+
+paru -S apple-fonts ttf-mac-fonts nerd-fonts-sf-mono ttf-apple-fontpack nerd-fonts-sf-mono
+
+#+end_src
+
+**** Programming fonts (incl. Nerd fonts)
+Fira Code Nerd (Fura)
+
+*** Extra packages
+Use a custom package to install extra software and have the packaging system
+figure out the dependencies for these.
+
+#+begin_src
+paru -S plus42 thunar inkscape
+
+#+end_src
+
+*** Printing
+#+begin_src shell
+paru -S
+
+#+end_src
+
+* Emacs
+** Personal config repo
+#+begin_src shell
+
+#+end_src
+
+** Install required packages
+#+begin_src shell
+paru -S fd
+#+end_src
+** Doom installation
+#+begin_src shell
+
+#+end_src
+
+* Windowing Environment
+** Install required packages
+#+begin_src
+paru -S river-git \
+wlroots-git \
+foot \
+bemenu \
+wdisplay
+
+#+end_src
+
+** River Configuration
+#+begin_src
+
+#+end_src
+
+** Waybar Configuration
+#+begin_src
+
+#+end_src
+
+** Rofi themes (applets / menus / launcher)
+These are simple, stylish menus to supplement the River wm.
+Repo: https://github.com/dctxmei/rofi-themes
+
+Arch packages required
+#+begin_src shell
+
+#+end_src
+
+Configuration
+#+begin_src
+
+#+end_src
+
+** bemenu Configuration
+#+begin_src
+
+#+end_src
+
+* Latex environment
+
+Arch packages Latex Live using a group: /texlive/
+
+Documentation here: https://wiki.archlinux.org/title/TeX_Live
+
+Note: There are two alternatives for installation: Native and Arch-packaged
+
+* Keyboard-related
+** Pog Appimage
+
+** Vial Appimage
+
+** QMK repo
+
+** Personal KB repo
