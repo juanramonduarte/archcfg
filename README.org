@@ -24,7 +24,27 @@
 
 * Arch installation
 ** Initial install
+
+*** Get an Arch ISO
+
+https://archlinux.org/download/
+
+*** Archinstall: guided installation
+
+https://archinstall.archlinux.page/installing/guided.html
+
+
+Ideally, the configuration is already saved and stored on a network-accessible
+server. The following command loads a previously defined configuration and runs
+the installer using those settings.
+
+#+begin_src
+archinstall --config https://domain.lan/config.json
+#+end_src
+
+
 *** Disk partitioning
+
 
 *** Basic desktop environment
 
