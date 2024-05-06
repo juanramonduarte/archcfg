@@ -1,5 +1,26 @@
 #+TITLE:
-#+OPTIONS: toc:2
+#+FILETAGS: :TOC:
+
+* Table of Contents :TOC:
+- [[#arch-installation][Arch installation]]
+  - [[#initial-install][Initial install]]
+  - [[#post-install][Post-install]]
+- [[#emacs][Emacs]]
+  - [[#personal-config-repo][Personal config repo]]
+  - [[#install-required-packages][Install required packages]]
+  - [[#doom-installation][Doom installation]]
+- [[#windowing-environment][Windowing Environment]]
+  - [[#install-required-packages-1][Install required packages]]
+  - [[#river-configuration][River Configuration]]
+  - [[#waybar-configuration][Waybar Configuration]]
+  - [[#rofi-themes-applets--menus--launcher][Rofi themes (applets / menus / launcher)]]
+  - [[#bemenu-configuration][bemenu Configuration]]
+- [[#latex-environment][Latex environment]]
+- [[#keyboard-related][Keyboard-related]]
+  - [[#pog-appimage][Pog Appimage]]
+  - [[#vial-appimage][Vial Appimage]]
+  - [[#qmk-repo][QMK repo]]
+  - [[#personal-kb-repo][Personal KB repo]]
 
 * Arch installation
 ** Initial install
@@ -13,7 +34,7 @@
 
 There are a few MS font packages in the AUR:
 
-ttf-ms-fonts ttf-vista-fonts ttf-ms-win11 ttf-ms-win10-cdn
+/ttf-ms-fonts ttf-vista-fonts ttf-ms-win11 ttf-ms-win10-cdn/
 
 I choose /ttf-ms-win11/ and for Repository AUR: 2) ttf-ms-win11-auto
 
