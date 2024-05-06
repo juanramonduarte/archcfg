@@ -184,6 +184,9 @@ Note: There are two alternatives for installation: Native and Arch-packaged
 
 * Keyboard-related
 ** Pog Appimage
+Download a Pog Appimage from the release page:
+
+https://github.com/JanLunge/pog/releases
 
 ** Vial Appimage
 
